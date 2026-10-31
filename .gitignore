@@ -1,0 +1,26 @@
+# 1. Diretórios de compilação e build (CMake/Make)
+build/
+cmake-build-*/
+
+# 2. Ficheiros gerados pelos testes (Resultados)
+resultados/*.png
+resultados/*.csv
+
+# 3. Executáveis e ficheiros objeto (C/C++)
+*.o
+*.out
+*.exe
+*.dll
+*.so
+*.a
+
+# 4. Configurações de IDE e Sistema Operativo
+.idea/
+.vscode/
+*.swp
+.DS_Store
+Thumbs.db
+
+# 5. Cache e temporários do Python (script de gráficos)
+__pycache__/
+*.pyc
