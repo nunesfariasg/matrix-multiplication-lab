@@ -30,7 +30,7 @@ The parallel implementation distributes the computation among multiple threads, 
 
 ## Technologies
 
-- **C (C11)** — Core implementations.
+- **C (C23)** — Core implementations.
 - **Pthreads** — Parallel execution.
 - **CMake** — Build system.
 - **Bash** — Experiment automation.
